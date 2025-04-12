@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&family=Shadows+Into+Light&family=Signika+Negative:wght@300..700&display=swap');
+@import '_reset.scss';
+@import '_header.scss';
+@import '_about.scss';
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f9f4f0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}

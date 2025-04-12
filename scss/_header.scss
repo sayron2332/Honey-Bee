@@ -1,0 +1,104 @@
+.header {
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 40px;
+    }
+
+    // .header__logo-link
+
+    &__logo-link {
+        img {
+            max-width: 196px;
+        }
+    }
+
+    // .header__list
+
+    &__list {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+
+        li:last-child {
+
+            padding: 10px 17px 9px 17px;
+            border: solid #eb6d2f 2px;
+            border-radius: 8px;
+            font-weight: 700;
+            color: #5a3733;
+            letter-spacing: 1px;
+        }
+
+    }
+
+
+    // .header__list-item
+
+    &__list-item {
+        font-size: 14px;
+        font-weight: 600;
+
+        a {
+
+            color: #5a3733;
+        }
+    }
+
+    // .header__hero-subtitle
+
+    &__hero-subtitle {
+        color: #eb6d2f;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    // .header__hero-title
+
+    &__hero-title {
+        font-family: "Signika Negative", sans-serif;
+        max-width: 540px;
+        font-size: 110px;
+        color: #5a3733;
+        font-weight: 800;
+        margin-top: 15px;
+    }
+
+    // .header__hero-text
+
+    &__hero-text {
+        max-width: 545px;
+        color: rgb(65, 57, 57);
+        font-size: 18px;
+        line-height: 35px;
+    }
+
+    // .header__hero-button
+    &__hero-group {
+        padding: 0px 40px;
+        margin-bottom: 110px;
+
+    }
+
+    &__hero-button {
+        margin-top: 40px;
+        background-color: #eb6d2f;
+        color: white;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 8px;
+        width: 156px;
+        height: 57px;
+    }
+
+    &__hero {
+        display: flex;
+        background: url(../img/header/header-hero-background.jpg) 100% no-repeat;
+        align-items: end;
+        min-height: 100vh;
+        background-size: cover;
+
+    }
+}
