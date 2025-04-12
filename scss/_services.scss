@@ -1,0 +1,83 @@
+.services {
+    margin-top: 150px;
+
+    text-align: center;
+    // .services__subtitle
+
+    &__subtitle {
+        color: #eb6d2f;
+        font-weight: 700;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+
+    // .services__title
+
+    &__title {
+        font-family: "Signika Negative", sans-serif;
+        max-width: 540px;
+        font-size: 50px;
+        color: #5a3733;
+        font-weight: 800;
+        margin-top: 15px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    // .services__text
+
+    &__text {
+        max-width: 770px;
+        margin: 0 auto;
+        color: rgb(65, 57, 57);
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 45px;
+    }
+
+    // .services__list
+
+    &__list {}
+
+    // .services__list-item
+
+    &__list-item {
+       
+    }
+}
+
+.card {
+    
+    &__img {
+        max-width: 91px;
+    }
+
+    // .card__title
+
+    &__title {
+        font-family: "Signika Negative", sans-serif;
+        font-size: 25px;
+        color: #5a3733;
+        font-weight: 800;
+        margin-top: 15px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+
+    // .card__text
+
+    &__text {
+        padding: 25px 0px;
+        max-width: 246px;
+        font-size: 16px;
+        color: #5a3733;
+    }
+
+    // .card__button
+
+    &__button {
+        color: #ffd832;
+        background-color: white;
+        font-weight: 700;
+    }
+}
