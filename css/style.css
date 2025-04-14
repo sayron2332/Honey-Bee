@@ -148,7 +148,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .services {
-  margin-top: 150px;
+  background: url(../img/services/services-background.jpg) 100% no-repeat;
+  background-size: cover;
+  margin-top: 140px;
+  min-height: 100vh;
   text-align: center;
 }
 .services__subtitle {
@@ -156,6 +159,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
   letter-spacing: 1px;
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
 .services__title {
   font-family: "Signika Negative", sans-serif;
@@ -165,7 +169,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
   margin-top: 15px;
   margin: 0 auto;
-  margin-top: 20px;
 }
 .services__text {
   max-width: 770px;
@@ -173,7 +176,13 @@ h1, h2, h3, h4, h5, h6 {
   color: rgb(65, 57, 57);
   font-size: 18px;
   line-height: 25px;
-  margin-bottom: 45px;
+  margin-bottom: 50px;
+}
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: #5a3733;
+  padding: 30px;
 }
 .card__img {
   max-width: 91px;
@@ -185,28 +194,63 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
   margin-top: 15px;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 .card__text {
   padding: 25px 0px;
-  max-width: 246px;
+  max-width: 294px;
   font-size: 16px;
   color: #5a3733;
+  margin: 0 auto;
+  line-height: 30px;
 }
 .card__button {
   color: #ffd832;
   background-color: white;
+  font-size: 13.5px;
   font-weight: 700;
+}
+
+.services__list-wrapper {
+  position: relative;
+  overflow: hidden;
+  /* приховує все, що виходить */
+  padding: 40px 60px 50px;
+  /* місце для стрілок і пагінації */
+}
+
+.swiper-button-prev {
+  left: 10px;
+}
+
+.swiper-button-next {
+  right: 10px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 25px;
+  color: #5a3733;
+  font-weight: 900;
+  opacity: 0.75;
+}
+
+.swiper-pagination-bullet {
+  margin: 0px 7px !important;
+  width: 10px;
+  height: 10px;
+  padding: 5px;
+  background-color: #5a3733;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 0.75;
 }
 
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #f9f4f0;
-}
-
-.swiper {
-  width: 600px;
-  height: 300px;
 }
 
 .container {

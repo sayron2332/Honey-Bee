@@ -8,12 +8,24 @@ document.addEventListener("htmx:afterSwap", function (e) {
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            speed: 500,
             pagination: {
                 el: '.swiper-pagination',
-                clickable: true,
             },
-            slidesPerView: 1,
+            slidesPerView: 3,
             spaceBetween: 30,
+            breakpoints: {
+                0: {
+                    slidesPerView: 1
+                },
+                768: {
+                    slidesPerView: 2
+                },
+                1024: {
+                    slidesPerView: 3
+                }
+            }
+
         });
     }
 });
